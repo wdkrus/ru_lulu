@@ -13,19 +13,19 @@ Perplexity AI + OpenAI Whisper/TTS + Keyword spotting + PiCamera
 
 Переиспользованы встроенные анимации Rider, необходимо переименовать все фреймы, сделав код двузначным, i.e. Angry1.png -> Angry01.png
 
-## 🗂️ Структура файлов[^1][^2][^3][^4]
+## 🗂️ Структура файлов
 
 | Файл | Описание |
 | :-- | :-- |
-| `ru_lulu.py` [^1] | Главный цикл: keyword spotting → STT → LLM → TTS + XGO эмоции |
-| `lulu_llm_integrations-5.py` [^2] | Perplexity/OpenAI: `ask_perplexity()`, Whisper, TTS, DALL-E 3 |
-| `audio-3.py` [^3] | Keyword detection (lulu_v3.premium), запись/воспроизведение aplay |
-| `libnyumaya-4.py` [^5] | Аудио-фильтры (FanNoise)я |
-| `api_keys-2.py` [^6] | Ключи API (не коммитьте!) |
-| `lulu_physical_actions-6.py` [^7] | Действия в реальном мире |
-| `lulu_system_promt-7.txt` [^8] | Системный промпт Lulu |
-| `perplexity-9.py` [^9] | `ask_perplexity()` с timeout=30s |
-| `main-8.py` [^4] | Альтернативный main для собаки с быстрым доступом к RuLulu и Wi-Fi-приложению |
+| `ru_lulu.py` | Главный цикл: keyword spotting → STT → LLM → TTS + XGO эмоции |
+| `lulu_llm_integrations-5.py` | Perplexity/OpenAI: `ask_perplexity()`, Whisper, TTS, DALL-E 3 |
+| `audio-3.py` | Keyword detection (lulu_v3.premium), запись/воспроизведение aplay |
+| `libnyumaya-4.py` | Аудио-фильтры (FanNoise)я |
+| `api_keys-2.py` | Ключи API (не коммитьте!) |
+| `lulu_physical_actions-6.py` | Действия в реальном мире |
+| `lulu_system_promt-7.txt` | Системный промпт Lulu |
+| `perplexity-9.py` | `ask_perplexity()` с timeout=30s |
+| `main-8.py` | Альтернативный main для собаки с быстрым доступом к RuLulu и Wi-Fi-приложению |
 
 ## 🔧 Ключевые фичи
 
@@ -34,11 +34,11 @@ Perplexity AI + OpenAI Whisper/TTS + Keyword spotting + PiCamera
 - Модель: `lulu_v3.1.907.premium.p`
 - Фильтр: FanNoise (RPi CM5)
 
-### LLM Pipeline[^2][^9]
+### LLM Pipeline
 
 - Распознавание команды -> Генерация Python-кода на стороне Perplexity -> Исполнение кода + TTS
 
-### Голос[^3]
+### Голос
 
 - **STT**: `whisper_recognize(audio.wav, language='ru')`
 - **TTS**: `text_to_speech(text, "lulu_tts.wav")` → `playfile()` (aplay + PID kill)
@@ -69,7 +69,7 @@ PERPLEXITY_KEY=pxl-...
 
 ## 🤝 Разработка
 
-**Автор**: Андрей Дьяков[^2]
+**Автор**: Андрей Дьяков
 
 ***
 
