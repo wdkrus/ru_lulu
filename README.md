@@ -20,7 +20,7 @@ Perplexity AI + OpenAI Whisper/TTS + Keyword spotting + PiCamera
 | `ru_lulu.py` | Главный цикл: keyword spotting → STT → LLM → TTS + XGO эмоции |
 | `lulu_llm_integrations-5.py` | Perplexity/OpenAI: `ask_perplexity()`, Whisper, TTS, DALL-E 3 |
 | `audio-3.py` | Keyword detection (lulu_v3.premium), запись/воспроизведение aplay |
-| `libnyumaya-4.py` | Аудио-фильтры (FanNoise)я |
+| `libnyumaya-4.py` | Аудио-фильтры (FanNoise) |
 | `api_keys-2.py` | Ключи API (не коммитьте!) |
 | `lulu_physical_actions-6.py` | Действия в реальном мире |
 | `lulu_system_promt-7.txt` | Системный промпт Lulu |
