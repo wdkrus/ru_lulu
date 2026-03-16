@@ -1,0 +1,2 @@
+OPENAI_KEY = ""
+PERPLEXITY_KEY = ""
