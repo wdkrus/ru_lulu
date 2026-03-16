@@ -1,6 +1,6 @@
 # ru_Lulu 🐕‍🦺
 
-**Русскоязычный голосовой ИИ-чатбот для робоcобаки DOGZILLA Lite**
+**Русскоязычный голосовой ИИ-чатбот для робоcобаки DOGZILLA Lite**: 
 Perplexity AI + OpenAI Whisper/TTS + Keyword spotting + PiCamera
 
 ## Описание
