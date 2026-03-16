@@ -3,8 +3,6 @@
 **Русскоязычный голосовой ИИ-чатбот для робоcобаки DOGZILLA Lite**
 Perplexity AI + OpenAI Whisper/TTS + Keyword spotting + PiCamera
 
-[ [
-
 ## Описание
 
 Голосовой ассистент Lulu на базе Perplexity `sonar-pro` и OpenAI API.
