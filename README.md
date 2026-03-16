@@ -52,7 +52,7 @@ Perplexity AI + OpenAI Whisper/TTS + Keyword spotting + PiCamera
 
 ## ⚙️ Конфигурация
 
-`api_keys.py`**:
+**`api_keys.py`**:
 
 ```
 OPENAI_KEY=sk-proj-...
