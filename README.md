@@ -41,7 +41,7 @@ Perplexity AI + OpenAI Whisper/TTS + Keyword spotting + PiCamera
 ### Голос
 
 - **STT**: `whisper_recognize(audio.wav, language='ru')`
-- **TTS**: `text_to_speech(text, "lulu_tts.wav")` → `playfile()` (aplay + PID kill)
+- **TTS**: `text_to_speech(text, "lulu_tts.wav")` → `playfile()` (aplay)
 
 
 ### Изображения
